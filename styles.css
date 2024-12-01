@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d7c293;
+  font-family: sans-serif, arial;
+}
+.hero{
+  height: 2450px;
+  background-image: url('/images/hero-org.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-bar {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+.logo img {
+  height: 550px;
+  border-radius: 50%;
+}
+.logo h1{
+  color: hsl(0, 0%, 5%);
+  font-family: Cambria;
+  font-size: 150px;
+  margin-left: 5%;
+}
+.nav-op a {
+  color: #111111;
+  margin-right: 50px;
+  font-size: 80px;
+  text-decoration: none;
+}
+.nav-op a:hover {
+  color: #084603 ;
+}
+.Reservation {
+  height: 180px;
+  width: 600px;
+  background: transparent;
+  color: black;
+  border: none;
+  font-size: 80px;
+}
+.Reservation:hover {
+  background-color: #084603;
+}
+.heading {
+  height: fit-content;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+.heading h1{
+  color: #032001;
+  font-size: 150px;
+  margin-bottom: 50px;
+}
+.heading h2{
+  color: #095004;
+  font-size: 80px;
+}
+/*about us*/
+.ele-about{
+  height: 1000px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+.ele-about img{
+  margin: 5%;
+  height: 800px;
+}
+.about-line{
+  margin-bottom: 30px;
+  margin-right: 10%;
+}
+.about-line h3{
+  font-size:50px ;
+  margin-bottom: 30px;
+}
+.about-line h1{
+  font-size:80px ;
+  color: #031a01;
+  margin-bottom: 30px;
+}
+.about-line h5{
+  font-size:40px ;
+  color: #084603;
+  margin-bottom: 60px;
+}
+.about-line button{
+  height: 100px;
+  width: 400px;
+  font-size: 50px;
+  color: #021101;
+  background: transparent;
+  border: transparent;
+}
+.about-line button:hover{
+  background-color: #10460c;
+}
+.about-line a{
+  text-decoration: none;
+  color: #111111;
+}
+/* Menu*/
+.menu-container{
+  padding: 80px;
+  text-align: center;
+}
+.menu-container h3{
+  font-size:50px ;
+  margin-bottom: 30px;
+}
+.menu-container h2{
+  font-size:80px ;
+  color: #031a01;
+  margin-bottom: 30px;
+}
+.menu-container h5{
+  font-size:50px ;
+  color: #084603;
+  margin-bottom: 60px;
+}
+.menu-container a{
+  font-size:50px ;
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: #021101;
+}
+.menu-container button{
+  height: 100px;
+  width: 400px;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+.butt:hover{
+  background-color: #10460c;
+}
+.menu-img{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.menu-img img{
+  padding: 50px;
+  height: 1500px;
+  width: 1000px;
+}
+/*gallery*/
+.gallery-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.gallery-sec h3{
+  font-size:50px ;
+  margin-bottom: 30px;
+}
+.gallery-sec h2{
+  font-size:80px ;
+  color: #031a01;
+  margin-bottom: 30px;
+}
+.gallery-button a{
+  font-size:50px ;
+  margin-bottom: 60px;
+  text-decoration: none;
+  color: #021101;
+}
+.gallery-button button{
+  height: 100px;
+  width: 400px;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+.gallery-image{
+  display: flex;
+}
+/* Qoutes*/
+.quote{
+  height: 400px;
+  font-size: 5.5em;
+  color: #031a01;
+  text-align: center;
+}
+.quote i{
+  font-size: 8rem;
+}
+/* Reservation*/
+.reserving-container{
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.reserve-sec{
+  width:50%;
+}
+.reserve-sec h3{
+  font-size: 40px;
+}
+.reserve-sec h2{
+  font-size: 30px;
+}
+.resrve-img img{
+  height: 900px;
+}
+.reserve-symbol::after{
+  content: "*";
+  color: red;
+  padding-inline-start: 0.5em;
+}
+.reserve-symbol{
+  font-size: 24px;
+}
+.res-sys{
+  display: block;
+  text-align: center;
+  height: 50px;
+  width: 800px;
+  border: none;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border-bottom: 5px solid black;
+  font-size: 20px;
+}
+.reserve-guest{
+  margin-bottom: 20px;
+}
+.reserve-guest select{
+  height: 60px;
+  width: 200px;
+  background-color: transparent;
+  border-color: #032001;
+}
+.res-submit{
+  height: 70px;
+  width: 27%;
+  background-color: transparent;
+  border-color: #084603;
+  font-size: 30px;
+}
+.res-submit:hover{
+  background-color: #095004;
+}
+/*events*/
+.events{
+  text-align: center;
+
+}
+.event-wrap-ele {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.events h2 {
+  font-size: 3em;
+  color: #032001;
+  margin-bottom: 20px;
+}
+.events h1 {
+  font-size: 5.5em;
+  color: #032001;
+  margin-bottom: 20px;
+}
+.event-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.event-item img {
+  width: 800px;
+  height: 800px;
+  margin-right: 20px;
+}
+.event-details h3 {
+  font-size: 3.8em;
+  margin: 0;
+}
+.event-details p {
+  font-size: 2em;
+  color: #555;
+}
+.date {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.9em;
+  color: #888;
+}
+.event-sec2 a{
+    font-size:50px ;
+    margin-bottom: 60px;
+    text-decoration: none;
+    color: #021101;
+}
+.event-sec2 button{
+  height: 100px;
+  width: 400px;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+/*footer*/
+footer{
+  background-color: #032001;
+}
+.logo-last{
+  height:650px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-last h1{
+  margin-left: 10%;
+  font-size: 80px;
+}
+.logo-last span{
+  font-size: 80px;
+  display: block;
+}
+.logo-last img{
+  height: 400px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contact p{
+  margin-bottom: 20px;
+}
+.footer-container{
+  height: 400px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  color: white;
+}
+.footer-container p{
+  font-size: 30px;
+}
+.footer-container a{
+  text-decoration: none;
+  color:white;
+  margin-top: 15px;
+  font-size: 30px;
+}
+.footer-container a:hover{
+  border-bottom:4px solid #d7c293;
+}
+.grid{
+  font-size: 50px;
+  color:rgb(161, 149, 149);
+}
+.footer-links p{
+  margin-bottom: 20px;
+}
+.footer-links ul{
+  list-style-type: none;
+  font-size: 18px;
+}
+.footer-links li{
+  margin-bottom: 20px;
+}
+.footer-links a:hover{
+  border-bottom:4px solid #d7c293;
+}
+.footer-social p{
+  margin-bottom: 25px;
+}
+.footer-social a:hover{
+  border-bottom:4px solid #d7c293;
+}
+.footer-bottom{
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

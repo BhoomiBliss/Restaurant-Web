@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation - Jyothi</title>
+  <link rel="stylesheet" href="reserve.css" />
+</head>
+<body>
+  <section>
+    <div class="hero">
+      <div class="nav-bar">
+        <div class="logo">
+          <img src="/images/logo.jpg" />
+          <h1>JYOTHI</h1>
+        </div>
+        <div class="nav-op">
+          <a href="/index.html">Home</a>
+          <a href="/about.html">Our Story</a>
+          <a href="/menu.html">Menu</a>
+          <a href="/event.html">Events</a>
+          <a href="/galery.html">Gallery</a>
+          <a href="/cont.html">Contact us</a>
+          <button class="Reservation"><a href="#">RESERVATION</a></button>
+        </div>
+      </div>
+      <div class="heading">
+        <h1>Make A Reservation</h1>
+      </div>
+    </div>
+  </section>
+  <section class="reserving-container">
+    <div class="reserve-sec">
+      <h3>RESERVATION</h3>
+      <h2>Are you ready for a culinary adventure ?</h2>
+      <div class="reserve-name">
+        <label for="name" class="reserve-symbol">Name</label>
+        <input size="1" type="text" class="res-sys" name="name" id="name" placeholder="Your Name" required="required" aria-required="true">
+      </div>
+      <div class="reserve-email">
+        <label for="Email" class="reserve-symbol">Email</label>
+        <input size="1" type="text" class="res-sys" name="Email" id="Email" placeholder="Email" required="required" aria-required="true">
+      </div>
+      <div class="reserve-telph">
+        <label for="mobile-no" class="reserve-symbol">Mobile Number</label>
+        <input size="1" type="text" class="res-sys" name="mobile-no" id="mobile-no" required="required" aria-required="true" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" title="only Phone Number and charaters'#','&'and '-'">
+      </div>
+      <div class="reserve-date">
+        <label for="rev-date" class="reserve-symbol">Date</label>
+        <input size="1" type="text" class="res-sys" name="rev-date" id="rev-date" placeholder="2022-11-25" required="required" aria-required="true" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+      </div>
+      <div class="reserve-time">
+        <label for="rev-time" class="reserve-symbol">Time</label>
+        <input size="1" type="text" class="res-sys" name="rev-time" id="rev-time" placeholder="20:00" required="required" aria-required="true">
+      </div>
+      <div class="reserve-guest">
+        <label for="name" class="reserve-symbol">Number of Guests
+          <br>
+          LIMITED SEATS ‼️</label>
+        <select name="name" id="name" class="reserve-symbol " required="required" aria-required="true">
+          <option value="1"> 1</option>
+          <option value="1"> 2</option>
+          <option value="1"> 3</option>
+          <option value="1"> 4</option>
+          <option value="1"> 5</option>
+          <option value="1"> 6</option>
+          <option value="1"> 7</option>
+          <option value="1"> 8</option>
+          <option value="1"> 9</option>
+          <option value="1"> 10</option>
+        </select>
+      </div>
+      <button type="submit" class="res-submit">
+        <a href="#" style="text-decoration: none;color: black;"><span>RESERVE A TABLE</span></a>
+      </button>
+    </div>
+  </section>
+  <footer>
+    <div class="logo-last">
+      <div><img src="/images/logo.jpg" />
+        <div><h1>JYOTHI</h1></div>
+        <div><span>stay connected</span></div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="footer-contact ">
+        <p class="grid">CONNECT WITH US</p> 
+        <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>Phone: <a href="tel:+123456789">+1 234 567 89</a></p>
+      </div>
+      <div class="footer-links">
+          <p class="grid">QUICK LINKS</p>
+          <ul>
+            <li><a href="/index.html" style="object-fit: contain;cursor: pointer;">Home</a></li>
+            <li><a href="/about.html" style="object-fit: contain;cursor: pointer;">About us </a></li>
+            <li><a href="/menu.html" style="object-fit: contain;cursor: pointer;">Menu</a></li>
+            <li><a href="/gallery.html" style="object-fit: contain;cursor: pointer;">Gallery</a></li>
+            <li><a href="/event.html" style="object-fit: contain;cursor: pointer;">Events</a></li>
+            <li><a href="#" style="object-fit: contain;cursor: pointer;">Stemap</a></li>
+          </ul>
+      </div>  
+      <div class="footer-social">
+        <p class="grid"><strong>FOLLOW US</strong></p>
+        <p><a href="https://facebook.com" target="_blank">Facebook</a></p>
+        <p><a href="https://twitter.com" target="_blank">Twitter</a> </p>
+        <p><a href="https://instagram.com" target="_blank">Instagram</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 The Indian Hotels Company Limited. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
